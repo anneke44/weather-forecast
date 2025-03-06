@@ -36,6 +36,43 @@ header {
   font-size: 14px;
   color: #ffff;
 }
+main {
+  margin: 20px auto;
+}
+.weather-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weather-data {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(39, 33, 66, 0.5);
+}
+.weather-data strong {
+  color: #86b6f6;
+}
+.weather-temp-wrapper {
+  display: flex;
+}
+.temp-value {
+  margin-left: 10px;
+  font-size: 88px;
+  font-weight: bold;
+}
+.temp-image {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.temp-unit {
+  margin-top: 18px;
+  font-size: 30px;
+  color: rgba(39, 33, 66, 0.8);
+}
 a {
   color: #176b87;
 }
