@@ -61,15 +61,17 @@ main {
 }
 .temp-value {
   margin-left: 10px;
+  line-height: 88px;
   font-size: 88px;
   font-weight: bold;
 }
 .temp-image {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
 }
 .temp-unit {
-  margin-top: 18px;
+  margin-top: 10px;
   font-size: 30px;
   color: rgba(39, 33, 66, 0.8);
 }
