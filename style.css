@@ -10,6 +10,11 @@ body {
   border-radius: 16px;
   box-shadow: 0 30px 50px rgba(23, 107, 135, 0.1);
 }
+
+header {
+  border-bottom: 1px solid #176b87;
+  padding: 30px 0;
+}
 .search-form {
   margin: 0 auto;
 }
@@ -30,4 +35,14 @@ body {
   padding: 15px 30px;
   font-size: 14px;
   color: #ffff;
+}
+a {
+  color: #176b87;
+}
+footer {
+  border-top: 1px solid #176b87;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
 }
