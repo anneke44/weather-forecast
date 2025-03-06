@@ -3,40 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Anneke-Weather-Forecast</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter City..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Cape Town</h1>
-        <p>
-          Thursday 13:01 <br />
-          Humidity: 66% <br />Wind: 31.3km/h
-        </p>
-      </div>
-      <div>
-        ☀️12°C <br />
-        <p>scattered clouds</p>
-      </div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/anneke44" target="_blank">Anneke Viljoen</a>,
-      is open-sourced on
-      <a href="https://github.com/anneke44/weather-forecast" target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://anneke-weather-forecast.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div id="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter City..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Cape Town</h1>
+          <p>
+            Thursday 13:01 <br />
+            Humidity: 66% <br />Wind: 31.3km/h
+          </p>
+        </div>
+        <div>
+          ☀️12°C <br />
+          <p>scattered clouds</p>
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/anneke44" target="_blank">Anneke Viljoen</a
+        >, is open-sourced on
+        <a href="https://github.com/anneke44/weather-forecast" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://anneke-weather-forecast.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
