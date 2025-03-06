@@ -15,9 +15,10 @@
   <body>
     <div id="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             class="search-form-input"
+            id="search-form-input"
             type="search"
             placeholder="Enter City..."
             required
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-wrapper">
           <div>
-            <h1 class="weather-city">Cape Town</h1>
+            <h1 class="weather-city" id="weather-city">Cape Town</h1>
             <p class="weather-data">
               Thursday 13:01 <br />
               Humidity: <strong> 66% </strong> <br />Wind:
@@ -56,5 +57,6 @@
         >.
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
