@@ -94,6 +94,35 @@ main {
   font-size: 30px;
   color: rgba(39, 33, 66, 0.8);
 }
+.weather-forecast-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.forecast-day {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(39, 33, 66, 0.5);
+}
+.forecast-icon {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+.forecast-temp {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  color: #86b6f6;
+}
+.forecast-temp-max {
+  padding: 0 10px;
+}
+.forecast-temp-min {
+  padding: 0 10px;
+}
 a {
   color: #176b87;
 }
