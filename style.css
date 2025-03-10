@@ -97,7 +97,7 @@ main {
 .weather-forecast-wrapper {
   display: flex;
   justify-content: space-around;
-  margin: 40px 0;
+  margin: 30px 0;
 }
 .forecast-day {
   text-align: center;

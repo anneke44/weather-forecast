@@ -61,18 +61,6 @@ searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Dubai");
 
-function formatDay(timestamp) {
-  let date = new Date(timestamp * 1000);
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  return days[date.getDay()];
-}
-
-function getForecast(city) {
-  let apiKey = "04f3tf2c9f9bboc83b5050dcf54e2f1a";
-  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
-  axios(apiUrl).then(displayForecast);
-}
-
 function displayForecast(response) {
   let forecastHtml = "";
 
@@ -102,4 +90,14 @@ function displayForecast(response) {
   forecastElement.innerHTML = forecastHtml;
 }
 
-displayForecast();
+function formatDay(timestamp) {
+  let date = new Date(timestamp * 1000);
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  return days[date.getDay()];
+}
+
+function getForecast(city) {
+  let apiKey = "04f3tf2c9f9bboc83b5050dcf54e2f1a";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios(apiUrl).then(displayForecast);
+}
